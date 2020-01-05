@@ -8,5 +8,5 @@ I worked on one branch only. So you can see all my commits on the master branch.
 
 The only thing you can do right now is take a look at the front client and navigate from the vote page to the leaderboard.
 
-If I had more time, I think I would have a database compiling with docker and the font client would allow you to vote for your favorite Q images. I would also filled the leaderboard. I think I would have had a LogIn/Register page, so you can know for wich images you actually voted.
+If I had more time, I think I would have a database compiling with docker and the font client would allow you to vote for your favorite Q images. I would also filled the leaderboard. I think I would have had a LogIn/Register page, so you can know for wich images you actually voted. I want to clean the code, because I know I can do much better than this... I duplicated so much code that's why I want to add one file to supress all these lines. 
 If you want to know the main reason I didn't actually finished all what I wanted to do (except the fact that I started the project yesterday), is because I spend so much time on the design in css... I think if I had started by the devlopment itself (server/database/access to data) I think I would have more fonctionalities.

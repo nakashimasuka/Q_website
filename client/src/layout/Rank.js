@@ -37,8 +37,8 @@ class Rank extends React.Component {
                         <div className="Img-Score">
                             <div style={{ display: "flex", flexDirection: "flex-start"}}>
                                 <span className="Rank-Small"># {this.state.image}</span>
-                                <div className="Dislike-Count-Small">ici</div>
-                                <div className="Like-Count-Small">ici</div>
+                                <div className="Dislike-Count-Small">109</div>
+                                <div className="Like-Count-Small">109</div>
                             </div>
                             <div style={{ height: 200 }}>
                             </div>
@@ -46,8 +46,8 @@ class Rank extends React.Component {
                         <div className="Img-Score">
                             <div style={{ display: "flex", flexDirection: "flex-start"}}>
                                 <span className="Rank-Small"># {this.state.image}</span>
-                                <div className="Dislike-Count-Small">ici</div>
-                                <div className="Like-Count-Small">ici</div>
+                                <div className="Dislike-Count-Small">109</div>
+                                <div className="Like-Count-Small">109</div>
                             </div>
                             <div style={{ height: 200 }}>
                             </div>
@@ -55,8 +55,8 @@ class Rank extends React.Component {
                         <div className="Img-Score">
                             <div style={{ display: "flex", flexDirection: "flex-start"}}>
                                 <span className="Rank-Small"># {this.state.image}</span>
-                                <div className="Dislike-Count-Small">ici</div>
-                                <div className="Like-Count-Small">ici</div>
+                                <div className="Dislike-Count-Small">109</div>
+                                <div className="Like-Count-Small">109</div>
                             </div>
                             <div style={{ height: 200 }}>
                             </div>
@@ -64,8 +64,8 @@ class Rank extends React.Component {
                         <div className="Img-Score">
                             <div style={{ display: "flex", flexDirection: "flex-start"}}>
                                 <span className="Rank-Small"># {this.state.image}</span>
-                                <div className="Dislike-Count-Small">ici</div>
-                                <div className="Like-Count-Small">ici</div>
+                                <div className="Dislike-Count-Small">109</div>
+                                <div className="Like-Count-Small">109</div>
                             </div>
                             <div style={{ height: 200 }}>
                             </div>
@@ -75,8 +75,8 @@ class Rank extends React.Component {
                         <div className="Img-Score">
                             <div style={{ display: "flex", flexDirection: "flex-start"}}>
                                 <span className="Rank-Small"># {this.state.image}</span>
-                                <div className="Dislike-Count-Small">ici</div>
-                                <div className="Like-Count-Small">ici</div>
+                                <div className="Dislike-Count-Small">109</div>
+                                <div className="Like-Count-Small">109</div>
                             </div>
                             <div style={{ height: 200 }}>
                             </div>
@@ -84,8 +84,8 @@ class Rank extends React.Component {
                         <div className="Img-Score">
                             <div style={{ display: "flex", flexDirection: "flex-start"}}>
                                 <span className="Rank-Small"># {this.state.image}</span>
-                                <div className="Dislike-Count-Small">ici</div>
-                                <div className="Like-Count-Small">ici</div>
+                                <div className="Dislike-Count-Small">109</div>
+                                <div className="Like-Count-Small">109</div>
                             </div>
                             <div style={{ height: 200 }}>
                             </div>
@@ -93,8 +93,8 @@ class Rank extends React.Component {
                         <div className="Img-Score">
                             <div style={{ display: "flex", flexDirection: "flex-start"}}>
                                 <span className="Rank-Small"># {this.state.image}</span>
-                                <div className="Dislike-Count-Small">ici</div>
-                                <div className="Like-Count-Small">ici</div>
+                                <div className="Dislike-Count-Small">109</div>
+                                <div className="Like-Count-Small">109</div>
                             </div>
                             <div style={{ height: 200 }}>
                             </div>
@@ -102,8 +102,8 @@ class Rank extends React.Component {
                         <div className="Img-Score">
                             <div style={{ display: "flex", flexDirection: "flex-start"}}>
                                 <span className="Rank-Small"># {this.state.image}</span>
-                                <div className="Dislike-Count-Small">ici</div>
-                                <div className="Like-Count-Small">ici</div>
+                                <div className="Dislike-Count-Small">109</div>
+                                <div className="Like-Count-Small">109</div>
                             </div>
                             <div style={{ height: 200 }}>
                             </div>

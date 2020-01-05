@@ -44,8 +44,8 @@ class Vote extends React.Component {
                         <div className="Img-Content">
                             <div style={{ display: "flex", flexDirection: "flex-start"}}>
                                 <span className="Rank"># {this.state.image}</span>
-                                <div className="Dislike-Count">ici</div>
-                                <div className="Like-Count">ici</div>
+                                <div className="Dislike-Count">109</div>
+                                <div className="Like-Count">109</div>
                             </div>
                             <div style={{ height: 200 }}>
                             </div>
