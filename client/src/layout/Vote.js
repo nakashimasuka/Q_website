@@ -9,16 +9,29 @@ class Vote extends React.Component {
     render() {
         return (
             <Layout>
-                <Header style={{ background: '#F00000', padding: 0, width: "80%" }}>
-                    <p>Header ici</p>
+                <Header className="Header">
+                    <div style={{ paddingTop: 5 }}>
+                        <p>
+                            <span style={{ fontSize: 45, fontWeight: "bold", color: "#97C93C" }}>
+                                Le meilleur site de Q du monde.
+                            </span>
+                            <br />
+                            <span className={"Br"}>
+                                On est un peu obsédés par les Q, du coup on a décidé de créer un site dédié à ça.
+                                <br/>
+                                On espère que vous aimerez tout autant que nous. Cliquez sur le bouton et découvrez
+                                <br/>
+                                des Q du monde entier, et votez pour vos préférés !
+                            </span>
+                        </p>
+                    </div>
                 </Header>
-                <Content style={{ padding: '0 50px', marginTop: 64 }}>
-                    <div style={{ padding: 100, minHeight: 550 }}>
-                        <p>plop</p>
+                <Content style={{ display: "flex", justifyContent: "center", maxHeight: 550, marginTop: 20, paddingBottom: 300 }}>
+                    <div className="Img-Content">
                     </div>
                 </Content>
-                <Footer style={{ marginBottom: '1', textAlign: 'center' }}>
-                    <img width={200} height={45} src={Quincaillerie} alt={'© La Quincaillerie'}/>
+                <Footer style={{ marginTop: 0, textAlign: 'center' }}>
+                    <img width={200} height={35} src={Quincaillerie} alt={'© La Quincaillerie'}/>
                 </Footer>
             </Layout>
         );

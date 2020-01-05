@@ -1,8 +1,35 @@
-.Page {
-    width: 100%;
-    height: 100%;
+.Header {
+    display: block;
+    position: inherit;
+    height: 200px;
+    width: 1000px;
+    margin-top: -15px;
+    color: #3e3e3e;
+    background: #FFFFFF;
+    /*Arrondir les coins*/
+    -webkit-border-bottom-right-radius: 40px;
+    -webkit-border-bottom-left-radius: 40px;
+    -moz-border-radius-bottomright: 40px;
+    -moz-border-radius-bottomleft: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
 }
 
-.Vote-Page {
-    text-align: center;
+.Img-Content {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+    background: #FFFFFF;
+    /*Arrondir les coins*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.Br {
+    display: block;
+    margin-bottom: 0;
+    font-size: 20px;
 }
