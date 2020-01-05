@@ -9,12 +9,16 @@ class Vote extends React.Component {
     render() {
         return (
             <Layout>
-                <Header style={{ background: '#fff', padding: 0 }}><p>Header ici</p></Header>
-                <Content>
-                    <p>plop</p>
+                <Header style={{ background: '#F00000', padding: 0, width: "80%" }}>
+                    <p>Header ici</p>
+                </Header>
+                <Content style={{ padding: '0 50px', marginTop: 64 }}>
+                    <div style={{ padding: 100, minHeight: 550 }}>
+                        <p>plop</p>
+                    </div>
                 </Content>
-                <Footer style={{ position: 'sticky', bottom: '0', textAlign: 'center' }}>
-                    <img width={200} height={50} src={Quincaillerie}/>
+                <Footer style={{ marginBottom: '1', textAlign: 'center' }}>
+                    <img width={200} height={45} src={Quincaillerie} alt={'© La Quincaillerie'}/>
                 </Footer>
             </Layout>
         );
