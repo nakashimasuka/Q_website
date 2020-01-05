@@ -8,16 +8,12 @@ class Router extends React.Component {
         return (
             <Switch>
                 <Route
-                    path='/'
-                    render={() => {
-                        return <Vote/>;
-                    }}
+                    exact path='/'
+                    component={Vote}
                 />
                 <Route
                     path='/rank'
-                    render={() => {
-                        return <Rank/>;
-                    }}
+                    component={Rank}
                 />
             </Switch>
         );

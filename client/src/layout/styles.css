@@ -1,12 +1,45 @@
+.Br {
+    display: block;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.Button {
+    height: 55px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: white;
+    color: black;
+    font-size: 20px;
+}
+
+.Button-Send {
+    height: 55px;
+    width: 600px;
+    margin-top: 35px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: white;
+    font-size: 20px;
+}
+
 .Header {
     display: block;
     position: inherit;
     height: 200px;
     width: 1000px;
-    margin-top: -15px;
+    margin-top: -35px;
     color: #3e3e3e;
     background: #FFFFFF;
-    /*Arrondir les coins*/
+    /*Arrondir les coins du bas*/
     -webkit-border-bottom-right-radius: 40px;
     -webkit-border-bottom-left-radius: 40px;
     -moz-border-radius-bottomright: 40px;
@@ -18,18 +51,25 @@
 .Img-Content {
     display: flex;
     justify-content: center;
-    height: 400px;
-    width: 400px;
-    margin-top: 10px;
+    margin: auto;
+    height: 450px;
+    width: 450px;
     background: #FFFFFF;
     /*Arrondir les coins*/
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
 
-.Br {
-    display: block;
-    margin-bottom: 0;
-    font-size: 20px;
+.Img-Score {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    background: #FFFFFF;
+    /*Arrondir les coins*/
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
