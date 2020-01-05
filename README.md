@@ -4,7 +4,7 @@ This website let you to see some images from a database and then allows you to l
 You can also see the score board with every images in the database.
 
 If you want to understand the code, there is a fex comments in the styles.css file, but none in the .js files... Wait I can explain, it's because I didn't had the time to write some comments in there. I prefered to spend more time on this dirty code (yes it's dirty I know that I can do better, but not in one day) rather than write comments that I don't actually need (yes I know comments are not for me but anyway).
-I worked on one branch only. So you can see all my commits on the master branch.
+I worked on one branch only. So you can see all my commits on the master branch. Even if I started earlier, I would have only one branch, because I don't think it's necessary to add branch when I'm alone. I know that it is a bad habit but this is how I work.
 
 The only thing you can do right now is take a look at the front client and navigate from the vote page to the leaderboard.
 
