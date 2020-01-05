@@ -31,6 +31,36 @@
     font-size: 20px;
 }
 
+.Button-Rank {
+    height: 55px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: white;
+    font-size: 20px;
+    color: black;
+}
+
+.Dislike {
+    display: flex;
+    margin-left: 180px;
+    margin-right: 20px;
+    background: #fff;
+    color: red;
+    height: 60px;
+    width: 60px;
+    font-size: 32px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
 .Header {
     display: block;
     position: inherit;
@@ -48,10 +78,26 @@
     border-bottom-left-radius: 40px;
 }
 
+.Header-Rank {
+    display: block;
+    position: inherit;
+    height: 200px;
+    width: 1000px;
+    margin-top: -100px;
+    color: #3e3e3e;
+    background: #FFFFFF;
+    /*Arrondir les coins du bas*/
+    -webkit-border-bottom-right-radius: 40px;
+    -webkit-border-bottom-left-radius: 40px;
+    -moz-border-radius-bottomright: 40px;
+    -moz-border-radius-bottomleft: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
 .Img-Content {
     display: flex;
     justify-content: center;
-    margin: auto;
     height: 450px;
     width: 450px;
     background: #FFFFFF;
@@ -62,13 +108,98 @@
 }
 
 .Img-Score {
-    display: flex;
-    justify-content: center;
     margin-top: 20px;
-    height: 250px;
-    width: 250px;
+    margin-right: 20px;
+    height: 235px;
+    width: 235px;
+    margin-bottom: 20px;
     background: #FFFFFF;
     /*Arrondir les coins*/
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.Like {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 180px;
+    background: #fff;
+    color: #97C93C;
+    height: 60px;
+    width: 60px;
+    font-size: 32px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.Like-Count {
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 1px;
+    height: 25px;
+    width: 50px;
+    background: #a3d941;
+    font-size: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.Dislike-Count {
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 25px;
+    width: 50px;
+    background: #ff6869;
+    font-size: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.Rank {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 300px;
+    margin-top: 10px;
+}
+
+.Rank-Small {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 120px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.Like-Count-Small {
+    color: #fff;
+    margin-top: 6px;
+    margin-right: 1px;
+    height: 18px;
+    width: 35px;
+    background: #a3d941;
+    font-size: 15px;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.Dislike-Count-Small {
+    color: #fff;
+    margin-top: 6px;
+    margin-right: 5px;
+    height: 18px;
+    width: 35px;
+    background: #ff6869;
+    font-size: 15px;
+
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;

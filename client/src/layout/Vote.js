@@ -1,12 +1,20 @@
 import React from 'react';
-import { Layout, Button } from 'antd';
-import { NavLink, Redirect } from "react-router-dom";
+import { Layout, Button, Icon } from 'antd';
+import { NavLink } from "react-router-dom";
 import Quincaillerie from '../assets/logo.png';
 import './styles.css';
 
 const { Header, Content, Footer } = Layout;
 
 class Vote extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            image: 1
+        };
+    }
+
     render() {
         return (
             <Layout>
@@ -29,7 +37,22 @@ class Vote extends React.Component {
                 </Header>
 
                 <Content style={{ maxHeight: 460, marginTop: 30, paddingBottom: 200 }}>
-                    <div className="Img-Content">
+                    <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
+                        <Button className="Dislike">
+                            <Icon type="dislike" style={{ marginLeft: 6, marginTop: 12 }}/>
+                        </Button>
+                        <div className="Img-Content">
+                            <div style={{ display: "flex", flexDirection: "flex-start"}}>
+                                <span className="Rank"># {this.state.image}</span>
+                                <div className="Dislike-Count">ici</div>
+                                <div className="Like-Count">ici</div>
+                            </div>
+                            <div style={{ height: 200 }}>
+                            </div>
+                        </div>
+                        <Button className="Like">
+                            <Icon type="like" style={{ marginLeft: 6, marginTop: 7 }}/>
+                        </Button>
                     </div>
                     <Button className="Button-Send" icon="vertical-align-top">
                         Envoyez-nous votre Q à tulasvumonq@sitedeq.fr
