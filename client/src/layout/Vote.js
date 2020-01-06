@@ -40,11 +40,23 @@ class Vote extends React.Component {
 
                 <Content className="Content">
                     <div className="Content-body">
+                        {/*
+                            3 choses:
+                            - bouton dislike
+                            - image random -> pas affiché car pas de database
+                            - bouton like
+                        */}
                         <Button className="Dislike">
                             <Icon type="dislike" style={{ marginLeft: 6, marginTop: 12 }}/>
                         </Button>
                         <div className="Img-Content">
                             <div style={{ display: "flex", flexDirection: "flex-start"}}>
+                                {/*
+                                    3 choses:
+                                    - classement de l'image
+                                    - compte de dislike
+                                    - compte de like
+                                */}
                                 <span className="Rank"># {this.state.image}</span>
                                 <div className="Dislike-Count">109</div>
                                 <div className="Like-Count">109</div>
@@ -56,15 +68,18 @@ class Vote extends React.Component {
                             <Icon type="like" style={{ marginLeft: 6, marginTop: 7 }}/>
                         </Button>
                     </div>
+                    {/* Bouton pour evoyer une image par mail -> pas fonctionnel */}
                     <Button className="Button-Send" icon="vertical-align-top">
                         Envoyez-nous votre Q à tulasvumonq@sitedeq.fr
                     </Button>
                     <br/>
+                    {/* Bouton pour naviguer vers le classement */}
                     <NavLink className="Button" style={{ textDecoration: 'none' }} to={'/rank'}>
                         <span style={{ marginTop: 13 }}>Le classement qui pue pas du Q</span>
                     </NavLink>
                 </Content>
 
+                {/* Footer -> logo la quincaillerie */}
                 <Footer style={{ marginTop: 0, textAlign: 'center' }}>
                     <img width={200} height={35} src={Quincaillerie} alt={'© La Quincaillerie'}/>
                 </Footer>

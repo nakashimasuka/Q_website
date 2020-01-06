@@ -34,8 +34,8 @@ class Rank extends React.Component {
                     </div>
                 </Header>
 
-                <Content style={{maxHeight: 460, marginTop: 10, paddingBottom: 200}}>
-                    <div style={{ display: "flex", flexDirection: "row"}}>
+                <Content className="Content-rank">
+                    <div className="Content-body-rank">
                         {/*
                             Duplication de code x4 correspondant aux 4 images de la 1ère ligne de la page
                             -> à simplifier / créer une autre classe

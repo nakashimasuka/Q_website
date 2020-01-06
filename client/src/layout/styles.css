@@ -58,12 +58,25 @@
     padding-bottom: 200px;
 }
 
-/* Styles pour le corps même de la page -> place les bouttons like et dislike ainsi que l'image*/
+/* Styles pour le content de la page rank */
+.Content-rank {
+    max-height: 460px;
+    margin-top: 10px;
+    padding-bottom: 200px;
+}
+
+/* Styles pour le corps de la page vote -> place les bouttons like et dislike ainsi que l'image*/
 .Content-body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Styles pour le corps de la page rank */
+.Content-body-rank {
+    display: flex;
+    flex-direction: row;
 }
 
 /* Bouton "je n'aime pas" de la page de vote */
