@@ -11,15 +11,17 @@ class Vote extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            image: 1
+            image: 1 //classement de l'image entré en brut -> à changer lorsqu'il y aura un serveur
         };
     }
 
     render() {
         return (
             <Layout>
+                {/* Header de la page de vote */}
                 <Header className="Header">
                     <div style={{ paddingTop: 5 }}>
+                        {/* Texte du header */}
                         <p>
                             <span style={{ fontSize: 55, fontWeight: "bold", color: "#97C93C" }}>
                                 Le meilleur site de Q du monde.
@@ -36,8 +38,8 @@ class Vote extends React.Component {
                     </div>
                 </Header>
 
-                <Content style={{ maxHeight: 460, marginTop: 30, paddingBottom: 200 }}>
-                    <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
+                <Content className="Content">
+                    <div className="Content-body">
                         <Button className="Dislike">
                             <Icon type="dislike" style={{ marginLeft: 6, marginTop: 12 }}/>
                         </Button>
