@@ -22,7 +22,7 @@ The only thing you can do right now is take a look at the front client and navig
 
 Before you go further, I want you to know that I worked only 2 days (more one than 2), because I had to prepare my next academic year (my wishes for my next university, and it was the end of the year so I spend some time with my friends. And the reason why I did'nt started when I got your e-mail is because I had to finish one project for Epitech (work to be done for the 28th december)... Sorry about that, I really wanted to work more but I have my priorities.
 
-If you want to understand the code, there is a few comments in the styles.css file, but none in the .js files... Wait I can explain, it's because I didn't had the time to write some comments in there. I prefered to spend more time on this dirty code (yes it's dirty I know that I can do better, but not in one day) rather than write comments that I don't actually need (yes I know comments are not for me but anyway).
+If you want to understand the code, there is a few comments in the styles.css file and some in Rank.js and Vote.js. I don't have much comments because I prefered to spend more time on this dirty code (yes it's dirty I know that I can do better, but not in one day) rather than write comments that I don't actually need (yes I know comments are not for me but anyway).
 I created 3 .js files. One is a router, for navigate between the 2 other files: the Vote file and the Rank file. The Vote file contain a class Vote and inside it, we have a layout wich is separed in 3 parts: the Header, the Content and the Footer.
 You can find the same architecture in the Rank file but without the footer (I hesitated in add one). This file contain all the design for the leaderboard.
 I also created a styles.css file, it contains all the classNames needed by the tags.
@@ -65,7 +65,8 @@ Q_repository
 
 At the root of the repository, you can find a file name launch_program. You just have to run the following command:
                     $> ./launch_program.sh
-Once the program is compiled, go to:  http://localhost:3000
+Once the program is compiled, go to:  http://localhost:3000 (Local)
+                           Or go to:  http://172.26.0.2:3000/ (on Network)
 Enjoy!
 
     5- Things to do in the future to improve the test
