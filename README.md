@@ -2,7 +2,7 @@
 
                     ####    Website for La Quincaillerie made in React/Node.Js by Sofian Delalay.   ####
     
-    
+   /* Click on the "Raw" button to see a prettier README :) Enjoy ! */
     
     0- Summary
 
