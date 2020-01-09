@@ -8,14 +8,14 @@ module.exports = function (app) {
             users.find({ ip: req.ip }, function (err, u) {
                 let voted_on = [];
 
-                if (u.length() === 1)
+                if (u.length === 1)
                     voted_on = u[0].votes;
                 let not_voted = all_img.filter(function(img) {
                     return voted_on.indexOf(img._id) === -1;
                 });
                 let img_show = null;
 
-                if (not_voted.length() > 0)
+                if (not_voted.length > 0)
                     img_show = not_voted[Math.floor(Math.random() * not_voted.length())];
 
                 res.render('home', { image: img_show });
@@ -51,7 +51,7 @@ module.exports = function (app) {
         };
 
         images.find({ name: req.body.image }, function (err, found) {
-            if (found.length() === 1) {
+            if (found.length === 1) {
                 images.update(found[0], { $inc : like_or_dislike[req.path] });
                 users.update({ ip: req.ip }, { $addToSet: { votes: found[0]._id } }, function() {
                     res.redirect('../');
