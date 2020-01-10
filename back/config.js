@@ -1,29 +1,18 @@
-var handlebars = require('express3-handlebars'),
-    express = require('express');
+let handlebars = require('express3-handlebars');
+let express = require('express');
 
-// Require()-ing this module will return a function
-// that the index.js file will use to configure the
-// express application
+module.exports = function(app) {
 
-module.exports = function(app){
-
-    // Register and configure the handlebars templating engine
-    app.engine('html', handlebars({
-        defaultLayout: 'main',
-        extname: ".html",
-        layoutsDir: __dirname + '/views/layouts'
+    app.engine('js', handlebars({
+        defaultLayout: 'Vote',
+        extname: ".js",
+        layoutsDir: '../client/src/'
     }));
 
-    // Set .html as the default template extension
-    app.set('view engine', 'html');
+    /* .js est l'extension par default */
+    app.set('view engine', 'js');
+    /* montrer à express où sont les templates */
+    app.set('views', '../client/src/');
 
-    // Tell express where it can find the templates
-    app.set('views', __dirname + '/views');
-
-    // Make the files in the public folder available to the world
-    app.use(express.static(__dirname + '/public'));
-
-    // Parse POST request data. It will be available in the req.body object
     app.use(express.urlencoded());
-
 };
