@@ -1,6 +1,6 @@
 
 
-                    ####    Website for La Quincaillerie made in React/Node.Js by Sofian Delalay.   ####
+                 ####    Website for La Quincaillerie made in React/Node.Js by Sofian Delalay.   ####
     
    /* Click on the "Raw" button to see a prettier README :) Enjoy ! */
     
@@ -20,13 +20,11 @@ The only thing you can do right now is take a look at the front client and navig
 
     2- How I worked
 
-Before you go further, I want you to know that I worked only 2 days (more one than 2), because I had to prepare my next academic year (my wishes for my next university, and it was the end of the year so I spend some time with my friends. And the reason why I did'nt started when I got your e-mail is because I had to finish one project for Epitech (work to be done for the 28th december)... Sorry about that, I really wanted to work more but I have my priorities.
-
-If you want to understand the code, there is a few comments in the styles.css file and some in Rank.js and Vote.js. I don't have much comments because I prefered to spend more time on this dirty code (yes it's dirty I know that I can do better, but not in one day) rather than write comments that I don't actually need (yes I know comments are not for me but anyway).
-I created 3 .js files. One is a router, for navigate between the 2 other files: the Vote file and the Rank file. The Vote file contain a class Vote and inside it, we have a layout wich is separed in 3 parts: the Header, the Content and the Footer.
-You can find the same architecture in the Rank file but without the footer (I hesitated in add one). This file contain all the design for the leaderboard.
+If you want to understand the code, there are a few comments in the styles.css file and some in Rank.js and Vote.js. You can also find comments in back directory (config/database/index/routes.js). I don't have much comments because I prefered to spend more time on this dirty code (yes it's dirty I know that I can do better, but not in one day) rather than write comments that I don't actually need (yes I know comments are not for me but anyway).
+For the client, I created 3 .js files. One is a router, for navigate between the 2 other files: the Vote file and the Rank file. The Vote file contain a class Vote and inside it, we have a layout wich is separed in 3 parts: the Header, the Content and the Footer.
 I also created a styles.css file, it contains all the classNames needed by the tags.
-I created a server directory but I didn't fo anything inside it.
+For the server, I created a back directory and tried to create a database in sql with nodejs, but I couldn't afford to make it working. I tried to add images inside sql database but I failed at configuring the server to be working with react... so I couldn't connect my client with my server.
+You can find the same architecture in the Rank file but without the footer (I hesitated in add one). This file contain all the design for the leaderboard.
 
 I worked on one branch only. So you can see all my commits on the master branch. Even if I started earlier, I would have only one branch, because I don't think it's necessary to add branch when I'm alone. I know that it is a bad habit but this is how I work.
 
@@ -54,8 +52,20 @@ Q_repository
 |    |____Dockerfile
 |    |____package.json
 |    |____package-lock.json
-|____server
-|    |____ ... (there is nothing interesting inside this I just created the directory with npx)
+|____back
+|    |____data
+|    |    |___photo
+|    |    |___users
+|    |____images
+|    |    |__ ... (q images)
+|    |____nodes_modules
+|    |____config.js
+|    |____database.js
+|    |____index.js
+|    |____routes.js
+|    |____Dockerfile
+|    |____package.json
+|    |____package-lock.json
 |____docker-compose.yml
 |____launch_program.sh
 |____README.md
