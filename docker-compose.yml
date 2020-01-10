@@ -5,3 +5,8 @@ services:
     ports:
       - "3000:3000"
     restart: always
+  server:
+    build: ./back
+    ports:
+      - "8000:8000"
+    restart: always

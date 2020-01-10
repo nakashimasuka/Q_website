@@ -11,7 +11,7 @@ users.ensureIndex({ fieldName: 'ip', unique: true }, function(err) {
 });
 
 /* Read the dir where all the images are stored */
-const images_from_dir = fs.readdirSync("../images");
+const images_from_dir = fs.readdirSync("./images");
 
 /* Insert images inside the img database and add like and dislike parameters */
 images_from_dir.forEach(function(img) {
